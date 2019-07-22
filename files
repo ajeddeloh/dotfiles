@@ -4,3 +4,4 @@
 .bashrc
 .bash_profile
 .Xresources
+bin/yb-otp

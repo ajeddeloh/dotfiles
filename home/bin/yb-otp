@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+
+pass show rh/yb-otp | { IFS= read -r pass; printf %s "$pass"; } |xdotool type --clearmodifiers --file -
